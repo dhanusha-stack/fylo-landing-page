@@ -1,0 +1,266 @@
+/* Reset and base styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header */
+header {
+  padding: 2rem 0;
+}
+
+.container-nav {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 30px;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+}
+
+nav a {
+  font-weight: 400;
+  color: #333;
+}
+
+/* Shared Section Styles */
+.container-one,
+.container-two,
+.container-three {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+
+.left-section,
+.right-section {
+  flex: 1;
+  min-width: 300px;
+}
+
+.title {
+  font-family: 'Raleway', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+  color: #1c1c1c;
+}
+
+.content {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  color: #4a4a4a;
+}
+
+/* Form */
+.form {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.email {
+  flex: 1;
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.btn-submit {
+  background-color: #3c7cfb;
+  color: white;
+  border: none;
+  padding: 0.75rem 2rem;
+  font-weight: bold;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #2454c2;
+}
+
+/* Illustrations */
+.illustration {
+  width: 100%;
+  max-width: 500px;
+}
+
+/* Testimonial */
+.container-two {
+  background-color: #f8f8fe;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+  position: relative;
+  z-index: 1;
+}
+
+.fylo-works {
+  display: inline-flex;
+  align-items: center;
+  color: hsl(170, 45%, 43%);
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.fylo-works img {
+  margin-left: 0.5rem;
+}
+
+/* Testimonial box */
+.quotes {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  max-width: 400px;
+  margin-top: 2rem;
+}
+
+.quote-icon {
+  margin-bottom: 1rem;
+}
+
+.testimonial {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.testimonial .avatar {
+  width: 40px;
+  border-radius: 50%;
+}
+
+/* Section Three – CTA */
+.container-three {
+  background-color: #585989;
+  color: white;
+  /* border-radius: 6px; */
+  padding: 4rem 2rem;
+  flex-wrap: wrap;
+}
+
+.container-three .content{
+  color: white;
+}
+
+.container-three .right-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.container-three .email {
+  padding: 0.75rem;
+  border: none;
+  font-size: 1rem;
+}
+
+.container-three .btn-submit {
+  background-color: #3c7cfb;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.footer {
+  max-width: 1100px;
+  margin: auto auto;
+  background-color: #0b0b2a;
+  color: white;
+  padding: 4rem 2rem 2rem;
+}
+
+.footer-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footer-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.footer-col {
+  flex: 1 1 200px;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-col ul li {
+  margin-bottom: 1rem;
+}
+
+.footer-col ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-col ul li a:hover {
+  color: #65e2d9;
+}
+
+.footer-logo {
+  margin-bottom: 1.5rem;
+}
+
+.social-icons a {
+  color: white;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #65e2d9;
+}
+
+.attribution {
+  margin-top: 2rem;
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: #65e2d9;
+  text-decoration: none;
+}
